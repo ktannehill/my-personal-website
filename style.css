@@ -1,0 +1,82 @@
+body {
+    background: #141414;
+}
+
+#banner {
+    background-image: url(https://images.unsplash.com/photo-1574376407492-c3cf78231def?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    display: block;
+    min-height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+}
+
+#innerBanner {
+    padding: 50px;
+}
+
+#heading {
+    background: rgba(0, 0, 0, 0.7);
+    width: fit-content;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+h1 {
+    color: #415335;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+#menu {
+    height: 50px;
+    background: rgba(0, 0, 0, 0.7);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+#container{
+    width: 1000px;
+    margin: auto;
+    display: block;
+    display: flow-root;
+    padding: 50px;
+}
+
+.image {
+    float: left;
+}
+
+.image img {
+    width: 300px;
+}
+
+.imgCredit {
+    font-size: 8px;
+    color: #5c5c5c;
+}
+
+.content {
+    max-width: 500px;
+    float: right;
+    background: rgba(37, 16, 26, 0.7);
+    padding: 30px 50px;
+}
+
+h2 {
+    color: #d3d3d3;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+h3 {
+    color: #d3d3d3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant-caps: all-small-caps;
+}
+
+p {
+    color: #d3d3d3;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
